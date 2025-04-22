@@ -1,0 +1,42 @@
+# IDE/Editor specific
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+venv/
+env/
+.env
+.env.*
+!backend/.env.example
+!scripts/.env.example
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.pnp.*
+frontend/build/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.env.local
+*.env.*.local
+
+# Data files (optional - if you don't want them in git)
+# scripts/*.pdf
+# Past_Papers/ # Careful - do you want past papers in git?
+
+# Log files
+*.log
+
+# Other
+*.lock
